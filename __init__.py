@@ -1,9 +1,31 @@
-from .module1 import count_word_occurrences, most_frequent_word
-from .module2 import get_previous_word_indices, create_dict_from_range
-from .module3 import calculate_product_sum, find_elements_with_frequency
+from .Class_folder import  (
+    Glass,
+    Table,
+    Backpack,
+    Battery,
+    SongLibrary,
+    Rectangle,
+    Circle,
+    Tickets,
+    Book,
+    PaperBook,
+    AudioBook,
+    Library,
+    func,  # if func is a utility function you want to expose
+)
 
 __all__ = [
-           'count_word_occurrences', 'most_frequent_word',
-           'get_previous_word_indices', 'create_dict_from_range',
-           'calculate_product_sum', 'find_elements_with_frequency'
+           Glass,
+    Table,
+    Backpack,
+    Battery,
+    SongLibrary,
+    Rectangle,
+    Circle,
+    Tickets,
+    Book,
+    PaperBook,
+    AudioBook,
+    Library,
+    func,
           ]
