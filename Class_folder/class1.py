@@ -678,7 +678,7 @@ print(b3.is_empty())
 print(b3.current_charge_mah)
 
 # print(b.__class__)
-print(b.__class__.__name__)
+#print(b.__class__.__name__)
 
 
 # In[ ]:
