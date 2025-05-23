@@ -1,4 +1,4 @@
-from .class1.py import (
+from .class1 import (
     Glass,
     Table,
     Backpack,
