@@ -1280,7 +1280,7 @@ print("\nClass name:")
 print(rect1.__class__.__name__)   # Rectangle
 
 
-rect3 = Rectangle('name', 10)
+#rect3 = Rectangle('name', 10)
 
 
 # In[63]:
